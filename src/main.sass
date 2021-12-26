@@ -19,15 +19,20 @@ header:before
   background-image: linear-gradient(90deg, rgb(51, 47, 47), rgb(60, 60, 82))
   opacity: 0.7
 
+.app
+  padding: 0px 16px 
+  background-color: #364150
+
+
 .container
-  width: 80%
-  margin: auto
+  width: auto
   height: 100%
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
   position: relative
+
 
 .title
   padding: 10px
@@ -47,7 +52,19 @@ header:before
   display: flex
   flex-wrap: wrap
   justify-content: center
+.content
+  display: flex
+  flex-direction: column
+  text-align: center
 
+.containerC
+  width: auto
+  height: 100%
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+  position: relative
   .box
     width: 30%
     background-color: #1f2937
@@ -57,7 +74,6 @@ header:before
     display: flex
     img
       width: 50%
-
     .character
       width: 100%
       margin: 10px
@@ -74,3 +90,16 @@ header:before
   text-transform: uppercase
   font-size: 19px
   background-color: #364150
+
+
+
+@media (max-width: 1000px)
+  .characters
+    display: flex
+    flex-direction: column
+    align-content: center
+  .containerC .box
+    width: 89vw
+
+
+

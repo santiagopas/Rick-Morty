@@ -9,7 +9,7 @@ const devConfig = {
   devServer: {
     port: 3000,
     contentBase: "../dist",
-    open: "microsoft-edge", 
+    open: "msedge", 
     hot: true,
   },
   target: "web",

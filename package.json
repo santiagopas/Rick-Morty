@@ -8,7 +8,7 @@
     "dev": "webpack serve --config config/webpack.dev.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santiago Pasciullo <santiagopasciullo@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.16.2",
@@ -34,5 +34,6 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0"
   },
-  "browserslist": "> 0.25%, not dead, not ie 11"
+  "browserslist": "> 0.25%, not dead, not ie 11",
+  "repository": "https://github.com/santiagopas/Rick-Morty.git"
 }

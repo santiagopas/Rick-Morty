@@ -14,7 +14,7 @@ const Characters = () => {
   })
 
   return (
-    <div className="container">
+    <div className="containerC">
       <div className="characters">
         {
           character.map(item => (
