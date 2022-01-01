@@ -2,7 +2,7 @@ import "./main.sass"
 import Header from "./components/Header";
 import "./components/Header.css";
 import Characters from "./components/Characters";
-import './App.scss';
+
 
 function App() {
   return (
