@@ -1,4 +1,4 @@
-import "./main.sass"
+import "./App.scss";
 import Header from "./components/Header";
 import "./components/Header.css";
 import Characters from "./components/Characters";
